@@ -1,0 +1,35 @@
+.about_container {
+  display: flex;/* Makes child elements (image & text) sit side-by-side */
+  align-items: center;/* Aligns items vertically in the center */
+  gap: 40px; /* space between image and text */
+  flex-wrap: wrap;  /* Allows elements to wrap onto the next line on small screens */
+  padding: 20px;  /* Space inside the container */
+}
+
+.about_img img {
+  width: 300px; /* adjust size as needed */
+  height: auto; /* Automatically adjust height based on width */
+  border-radius: 10px; /* optional: for rounded corners */
+}
+
+.about_text {
+  max-width: 600px;/* Keeps text box from getting too wide */
+  font-size: 16px;   /* Size of text */
+  line-height: 1.6;} /* Line spacing for readability */
+
+.certificate-row {
+    display: flex;   /* Displays certificates in a row */
+    justify-content: center;/* Centers them horizontally */
+    gap: 30px;/* Adds space between each certificate */
+    margin-bottom: 30px; /* Space below the row */
+  }
+  
+  
+  .certificate-center {
+    display: flex;
+    justify-content: center; /* Centers the whole certificate container */
+  }
+  
+  .certificate-item {
+    text-align: center;   /* Centers the content inside each item */
+  }
